@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid;
+    height: 100vh;
+    background-image: url(https://vignette.wikia.nocookie.net/starwars/images/4/4a/Alderaan.jpg/revision/latest/scale-to-width-down/250?cb=20150421154226&path-prefix=ko);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:  center center;
+    position: relative;
+
+}
+
+form.box {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+form.box h1 {
+    font-weight: normal;
+}
+form.box input {
+    border: none;
+}
+form.box input[type=text] {
+    background-color: #fff;
+    width: 340px;
+    padding: 10px;
+    border-radius:25px 0 0 25px ;
+}
+form.box input[type=submit] {
+    width: 130px;
+    background-color:blueviolet;
+    padding: 10px;
+    border-radius: 0 25px 25px 0;
+    color: white;
+    margin-left: -6px;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.planet-1 {
+    position: absolute;
+    bottom: 5px;
+    right: 200px;
+}
