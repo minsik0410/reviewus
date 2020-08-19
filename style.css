@@ -55,3 +55,38 @@ form.box input[type=submit] {
     bottom: 5px;
     right: 200px;
 }
+
+.container2 {
+    border: 1px solid;
+    height: 200vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQL02GW4Rk3y-nebOuGljKL2eSYuclahgAodQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+.icon-ipad {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.icon-iphone {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.icon-macbook {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.icon-imac {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
