@@ -5,8 +5,8 @@ body {
 
 .container {
     border: 1px solid;
-    height: 100vh;
-    background-image: url(https://vignette.wikia.nocookie.net/starwars/images/4/4a/Alderaan.jpg/revision/latest/scale-to-width-down/250?cb=20150421154226&path-prefix=ko);
+    height: 150vh;
+    background-image: url(./KakaoTalk_20200826_212551810.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position:  center center;
@@ -23,6 +23,15 @@ form.box {
     color: #fff;
     text-align: center;
 }
+.search-engine-image {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -400px;
+}
+
 form.box h1 {
     font-weight: normal;
 }
@@ -54,49 +63,66 @@ form.box input[type=submit] {
     position: absolute;
     bottom: 26%;
     right: 100px;
+    margin-left: -125px;
+    margin-top: -125px;
 }
 
 .planet-2 {
     position: absolute;
     bottom: 5px;
     right: 400px;
+    margin-left: -125px;
+    margin-top: -125px;
 }
 
 .planet-3 {
     position: absolute;
     bottom: 5px;
     right: 700px;
+    margin-left: -125px;
+    margin-top: -125px;
 }
 
 .planet-4 {
     position: absolute;
     bottom: 26%;
     right: 1000px;
+    margin-left: -125px;
+    margin-top: -125px;
 }
 
 .planet-5 {
     position: absolute;
     top: 26%;
     right: 100px;
+    margin-left: -125px;
+    margin-top: -125px;
 }
 
 .planet-6 {
     position: absolute;
     top: 5px;
     right: 400px;
+    margin-left: -125px;
+    margin-top: -125px;
 }
 
 .planet-7 {
     position: absolute;
     top: 5px;
     right: 700px;
+    margin-left: -125px;
+    margin-top: -125px;
 }
 
 .planet-8 {
     position: absolute;
     top: 26%;
     right: 1000px;
+    margin-left: -125px;
+    margin-top: -125px;
 }
+
 
 .container2 {
     border: 1px solid;
