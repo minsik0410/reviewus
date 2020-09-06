@@ -5,8 +5,8 @@ body {
 
 .container {
     border: 1px solid;
-    height: 150vh;
-    background-image: url(./KakaoTalk_20200826_212551810.jpg);
+    height: 120vh;
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position:  center center;
@@ -15,20 +15,19 @@ body {
 }
 
 form.box {
-    width: 500px;
+    width: 400px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 530px;
+    left: 920px;
     transform: translate(-50%,-50%);
     color: #fff;
     text-align: center;
 }
 .search-engine-image {
-    width: 500px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -400px;
+    top: 580px;
+    left: 1010px;
+    margin-left: -450px;
     margin-top: -400px;
 }
 
@@ -40,13 +39,13 @@ form.box input {
 }
 form.box input[type=text] {
     background-color: #fff;
-    width: 340px;
+    width: 290px;
     padding: 10px;
     border-radius:25px 0 0 25px ;
 }
 form.box input[type=submit] {
-    width: 130px;
-    background-color:blueviolet;
+    width: 70px;
+    background-color:dodgerblue;
     padding: 10px;
     border-radius: 0 25px 25px 0;
     color: white;
@@ -54,80 +53,87 @@ form.box input[type=submit] {
 }
 .logo {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 40px;
+    left: 100px;
 
 }
 
 .planet-1 {
     position: absolute;
-    bottom: 26%;
-    right: 100px;
+    bottom: 500px;
+    right: 400px;
     margin-left: -125px;
     margin-top: -125px;
 }
 
+
 .planet-2 {
     position: absolute;
-    bottom: 5px;
-    right: 400px;
+    bottom: 200px;
+    right: 500px;
     margin-left: -125px;
     margin-top: -125px;
 }
 
 .planet-3 {
     position: absolute;
-    bottom: 5px;
-    right: 700px;
+    bottom: 100px;
+    right: 800px;
     margin-left: -125px;
     margin-top: -125px;
 }
 
 .planet-4 {
     position: absolute;
-    bottom: 26%;
-    right: 1000px;
+    bottom: 300px;
+    left: 400px;
     margin-left: -125px;
     margin-top: -125px;
 }
 
 .planet-5 {
     position: absolute;
-    top: 26%;
-    right: 100px;
+    top: 300px;
+    right: 470px;
     margin-left: -125px;
     margin-top: -125px;
 }
 
 .planet-6 {
     position: absolute;
-    top: 5px;
-    right: 400px;
+    top: 100px;
+    right: 750px;
     margin-left: -125px;
     margin-top: -125px;
 }
 
 .planet-7 {
     position: absolute;
-    top: 5px;
-    right: 700px;
+    top: 150px;
+    left: 700px;
     margin-left: -125px;
     margin-top: -125px;
 }
 
 .planet-8 {
     position: absolute;
-    top: 26%;
-    right: 1000px;
+    top: 370px;
+    left: 420px;
     margin-left: -125px;
     margin-top: -125px;
+}
+
+.planet-9 {
+    position: absolute;
+    bottom: 100px;
+    left: 450px;
 }
 
 
 .container2 {
     border: 1px solid;
     height: 200vh;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQL02GW4Rk3y-nebOuGljKL2eSYuclahgAodQ&usqp=CAU);
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -158,3 +164,4 @@ form.box input[type=submit] {
     top: 30%;
     left: 80%;
 }
+
