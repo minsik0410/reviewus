@@ -7,58 +7,87 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="container">
+    <div class="container">
     <div class="logo">
-        <img src="https://media.istockphoto.com/vectors/telescope-vector-icon-isolated-cosmos-view-astronomic-equipment-lens-vector-id1192266641" width="130px">
+        <img src="logo1.png" width="130px">
+    </div>
+    <div class="search-engine-image">
+        <img src="earth1.png" alt=""  width="700px">
     </div>
     <form class="box">
            <input type="text" placeholder="type...">
            <input type="submit" value="serch">
        </form>
-    <div class="search-engine-image">
-        <img src="earth1.png" alt="">
-    </div>
+ 
 
     <div class="planet-1">
-        <a href = "category-apple.html"> <input type="image" src="apple.jpg.png" width="250px">
+        <a href = "category-apple.html"> <input type="image" src="apple.jpg.png" width="200x" 
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)">
     </div>
 
     <div class="planet-2">
-        <a href = ""> <input type="image" src="baby.jpg.png" width="250px"></a>
+        <a href = ""> <input type="image" src="baby.jpg.png" width="200px"  
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)"></a>
     </div>
 
     <div class="planet-3">
-        <a href = ""> <input type="image" src="bike.jpg.png" width="250px"></a>
+        <a href = ""> <input type="image" src="bike.jpg.png" width="200px"
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)"></a>
     </div>
 
     <div class="planet-4">
-        <a href = ""> <input type="image" src="camping.jpg.png" width="250px"></a>
+        <a href = ""> <input type="image" src="tent.jpg.png" width="200px"
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)"></a>
     </div>
 
     <div class="planet-5">
-        <a href = ""> <input type="image" src="car.jpg.png" width="250px"></a>
+        <a href = ""> <input type="image" src="car.jpg.png" width="200px"
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)"></a>
     </div>
 
     <div class="planet-6">
-        <a href = ""> <input type="image" src="house.jpg.png" width="250px"></a>
+        <a href = ""> <input type="image" src="house.jpg" width="200px"
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)"></a>
     </div>
 
     <div class="planet-7">
-        <a href = ""> <input type="image" src="lipstick.jpg.png" width="250px"></a>
+        <a href = ""> <input type="image" src="lipstick.jpg" width="200px"
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)"></a>
     </div>
 
     <div class="planet-8">
-        <a href = ""> <input type="image" src="nike.jpg.png" width="250px"></a>
+        <a href = ""> <input type="image" src="nike.jpg" width="200px"
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)"></a>
     </div>
     
     <div class="planet-9">
-        <a href = ""> <input type="image" src="samsung.jpg.png" width="250px"></a>
+        <a href = ""> <input type="image" src="samsung.jpg" width="200px"
+            onmouseover="ZoomIn(event)"
+            onmouseleave="ZoomOut(event)"></a>
     </div>
    </div>
 
     </div>
 
-
 </div>
+<script>
+    function ZoomIn(event) {
+    event.target.style.width = "300px";
+    event.target.style.transesition = "all 0.5s";
+}
+function ZoomOut(event) {
+    event.target.style.width = "200px";
+    event.target.style.transesition = "all 0.5s";
+}
+
+</script>
 </body>
 </html>
